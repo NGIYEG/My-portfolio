@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container mx-auto text-center">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
           <span className="text-primary">George Otieno Ngiye</span>
-          <span className="text-foreground"> — a Web Developer building </span>
+          <span className="text-foreground"> ,a Web Developer building </span>
           <span className="text-primary">modern, responsive,</span>
           <span className="text-foreground"> and </span>
           <span className="font-black">high-performing</span>
@@ -15,7 +15,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-          I create tailored digital solutions — from eCommerce platforms to custom web apps.
+          I create tailored digital solutions, from eCommerce platforms to custom web apps.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

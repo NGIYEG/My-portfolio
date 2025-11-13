@@ -7,7 +7,7 @@ const About = () => {
   const techStack = [
     "React", "Next.js", "TypeScript", "Node.js", 
     "Python", "Django", "PostgreSQL", "MongoDB",
-    "Tailwind CSS", "Firebase", "Supabase", "Git"
+    "Tailwind CSS", "Firebase", "Supabase", "Git","Docker"
   ];
 
   const careerJourney = [
