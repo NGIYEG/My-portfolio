@@ -11,14 +11,14 @@ const projects = [
     title: "PoliagentX",
     description: "Policy tracking and monitoring tool that tracks government spending and outcomes. A development predictive platform.",
     image: poliagentxImage,
-    tags: ["Django", "Python", "AI/ML", "Data Analytics"],
+    tags: ["React", "Python", "AI/ML", "Data Analytics"],
   },
   {
     id: "nestify",
     title: "Nestify",
     description: "House mapping platform with AI location recommendations for rentals and accommodations. Helps users find properties in proximity to specific locations.",
     image: nestifyImage,
-    tags: ["Django","React", "Maps API", "Node.js"],
+    tags: ["React", "AI", "Maps API", "Node.js"],
   },
 ];
 
