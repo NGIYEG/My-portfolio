@@ -37,8 +37,8 @@ const Navigation = () => {
               <Code2 className="h-6 w-6 text-primary" />
             </div>
             <span className="font-bold text-xl">
-              <span className="text-primary">George</span>
-              <span className="text-foreground"> Ngiye</span>
+              <span className="text-primary">Ngiye-</span>
+              <span className="text-foreground">dev</span>
             </span>
           </Link>
 

@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center pt-16 px-4">
       <div className="container mx-auto text-center">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          <span className="text-primary">George Otieno Ngiye</span>
+          <span className="text-primary">Ngiye-dev</span>
           <span className="text-foreground"> ,a Web Developer building </span>
           <span className="text-primary">modern, responsive,</span>
           <span className="text-foreground"> and </span>
