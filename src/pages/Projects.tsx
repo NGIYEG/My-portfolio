@@ -12,6 +12,7 @@ const projects = [
     description: "Policy tracking and monitoring tool that tracks government spending and outcomes. A development predictive platform.",
     image: poliagentxImage,
     tags: ["Django", "Python", "AI/ML", "Data Analytics"],
+    status: "In Development",
   },
   {
     id: "nestify",
@@ -19,6 +20,7 @@ const projects = [
     description: "House mapping platform with AI location recommendations for rentals and accommodations. Helps users find properties in proximity to specific locations.",
     image: nestifyImage,
     tags: ["Django","React", "Maps API", "Node.js"],
+    status: "Completed",
   },
 ];
 
@@ -34,12 +36,15 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
             <Card key={project.id} className="overflow-hidden hover:shadow-lg transition-shadow">
-              <div className="aspect-video overflow-hidden">
+              <div className="aspect-video overflow-hidden relative">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 blur-sm"
                 />
+                <Badge className="absolute top-4 right-4 bg-background/80 backdrop-blur">
+                  {project.status}
+                </Badge>
               </div>
               <CardHeader>
                 <CardTitle>{project.title}</CardTitle>

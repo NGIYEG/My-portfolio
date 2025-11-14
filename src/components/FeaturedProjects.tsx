@@ -14,6 +14,7 @@ const projects = [
     description: "Policy tracking and monitoring tool that tracks government spending and outcomes. A development predictive platform.",
     image: poliagentxImage,
     tags: ["Django", "Python", "ML", "Data Analytics","Tailwindcss"],
+    status: "In Development",
   },
   {
     id: "nestify",
@@ -21,6 +22,7 @@ const projects = [
     description: "House mapping platform with AI location recommendations for rentals and accommodations. Helps users find properties in proximity to specific locations.",
     image: nestifyImage,
     tags: ["Django","React", "AI", "Maps API"],
+    status: "Completed",
   },
 ];
 
@@ -49,12 +51,15 @@ const FeaturedProjects = () => {
               currentIndex === projects.length - 1 ? [projects[0]] : []
             ).map((project, idx) => (
               <Card key={idx} className="overflow-hidden hover:shadow-lg transition-shadow">
-                <div className="aspect-video overflow-hidden">
+                <div className="aspect-video overflow-hidden relative">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 blur-sm"
                   />
+                  <Badge className="absolute top-4 right-4 bg-background/80 backdrop-blur">
+                    {project.status}
+                  </Badge>
                 </div>
                 <CardHeader>
                   <CardTitle>{project.title}</CardTitle>
