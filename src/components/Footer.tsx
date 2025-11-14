@@ -1,11 +1,13 @@
-import { Github, Linkedin, Twitter, Mail ,Facebook } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, Facebook } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
     <footer className="border-t border-border bg-background">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* About Section */}
           <div>
             <h3 className="text-lg font-semibold mb-4">About</h3>
@@ -72,6 +74,24 @@ const Footer = () => {
               >
                 <Mail className="h-5 w-5" />
               </a>
+            </div>
+          </div>
+
+          {/* Newsletter */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Newsletter</h3>
+            <p className="text-muted-foreground text-sm mb-4">
+              Subscribe to get updates on new projects and articles.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-2">
+              <Input
+                type="email"
+                placeholder="Your email"
+                className="flex-1"
+              />
+              <Button variant="default">
+                Subscribe
+              </Button>
             </div>
           </div>
         </div>
