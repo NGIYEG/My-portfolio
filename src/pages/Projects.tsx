@@ -20,7 +20,7 @@ const projects = [
     description: "House mapping platform with AI location recommendations for rentals and accommodations. Helps users find properties in proximity to specific locations.",
     image: nestifyImage,
     tags: ["Django","React", "Maps API", "Node.js"],
-    status: "Completed",
+    status: "In Development",
   },
 ];
 
