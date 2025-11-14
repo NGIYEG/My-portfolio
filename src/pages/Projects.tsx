@@ -25,7 +25,7 @@ const projects = [
 const Projects = () => {
   return (
     <main className="min-h-screen pt-24 px-4 pb-16">
-      <div className="container mx-auto">
+      <div className="container mx-auto max-w-6xl">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">All Projects</h1>
         <p className="text-lg text-muted-foreground mb-12">
           A showcase of my work in web development.

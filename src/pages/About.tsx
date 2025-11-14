@@ -52,12 +52,12 @@ const About = () => {
       description: "Building modern web applications and delivering innovative solutions for clients across various industries."
     },
     {
-      year: "2022 - 2023",
+      year: "2025- Present",
       title: "PoliagentX Development",
       description: "Created a policy tracking and monitoring platform that tracks government spending and development outcomes."
     },
     {
-      year: "2022",
+      year: "2025",
       title: "Nestify Platform",
       description: "Developed an AI-powered house mapping platform with intelligent location recommendations for rentals and accommodations."
     }

@@ -1,8 +1,8 @@
 const Stats = () => {
   const stats = [
-    { value: "50+", label: "Projects Completed" },
+    { value: "5+", label: "Projects Completed" },
     { value: "15+", label: "Technologies" },
-    { value: "30+", label: "Clients Served" },
+    { value: "10+", label: "Clients Served" },
   ];
 
   return (
