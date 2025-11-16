@@ -14,7 +14,7 @@ const projects = [
     description: "Policy tracking and monitoring tool that tracks government spending and outcomes. A development predictive platform.",
     image: poliagentxImage,
     tags: ["Django", "Python", "ML", "Data Analytics","Tailwindcss"],
-    status: "In Development",
+    status: "Under Development",
   },
   {
     id: "nestify",
@@ -22,7 +22,7 @@ const projects = [
     description: "House mapping platform with AI location recommendations for rentals and accommodations. Helps users find properties in proximity to specific locations.",
     image: nestifyImage,
     tags: ["Django","React", "AI", "Maps API"],
-    status: "In Development",
+    status: "Under Development",
   },
 ];
 
