@@ -53,8 +53,8 @@ const About = () => {
     },
     {
       year: "2025 - Present",
-      title: "PoliagentX Development",
-      description: "Created a policy tracking and monitoring platform that tracks government spending and development outcomes. Because someone has to keep the receipts 🧾"
+      title: "PoliagentX",
+      description: "A platform that simulates government spending and their outcomes across different social policy areas."
     },
     {
       year: "2026",
