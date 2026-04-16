@@ -123,17 +123,15 @@ const About = () => {
         {/* Story */}
        <div className="space-y-6 text-base md:text-lg text-foreground/90 leading-relaxed mb-16">
   <p>
-    My journey into tech started with curiosity,wondering how websites, apps, and systems actually worked behind the scenes. What began as simple experiments quickly turned into a genuine obsession with building things.
+    My journey into tech started with curiosity — wondering how websites, apps, and systems actually worked behind the scenes. What began as simple experiments quickly turned into a genuine obsession with building things.
   </p>
 
   <p>
-    Since then, I’ve grown into a techy who enjoys both the visual side of products and the logic that powers them underneath. I like creating experiences that look clean, feel smooth, and work reliably.
+    Since then, I’ve grown into someone who enjoys both the visual side of products and the logic that powers them underneath. I like creating experiences that look clean, feel smooth, and work reliably.
   </p>
 
- 
-
   <p>
-    I care deeply about writing clean code, improving performance, and designing systems that can scale. I also enjoy blending software engineering with data-driven thinking whenever it adds value.
+    I care deeply about problem clarity before writing code, improving performance, and designing systems that can scale. I also enjoy blending software engineering with data-driven thinking whenever it adds value.
   </p>
 
   <p className="text-primary font-medium italic">
