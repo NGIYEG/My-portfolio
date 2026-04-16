@@ -21,20 +21,20 @@ const speakingOpportunities = [
   },
 ];
 
-const awards = [
-  {
-    title: "Hackathon Winner",
-    organization: "Local Tech Community",
-    description: "First place for building an innovative policy tracking MVP in 48 hours.",
-    year: "2025",
-  },
-  {
-    title: "Top Contributor",
-    organization: "Open Source Community",
-    description: "Recognized for consistent contributions to open source projects.",
-    year: "2024",
-  },
-];
+// const awards = [
+//   {
+//     title: "Hackathon Winner",
+//     organization: "Local Tech Community",
+//     description: "First place for building an innovative policy tracking MVP in 48 hours.",
+//     year: "2025",
+//   },
+//   {
+//     title: "Top Contributor",
+//     organization: "Open Source Community",
+//     description: "Recognized for consistent contributions to open source projects.",
+//     year: "2024",
+//   },
+// ];
 
 const Index = () => {
   return (
@@ -48,7 +48,7 @@ const Index = () => {
             When I'm not working, I'm probably reading tech docs (for fun, don't judge), running 🏃, or convincing my friends that my next side project will definitely be the one.
           </p>
           <p>
-            My favorite things in the world: <strong>my family</strong>, <strong>a good API response</strong>, and <strong>dark mode</strong>.
+            My favorite things in the world: <strong>my family</strong>, <strong>that one honest fellow</strong>, and <strong>dark mode</strong>.
           </p>
           <p>
             Now that you know a bit about me, here is a bit about my work:
