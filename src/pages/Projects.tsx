@@ -2,7 +2,8 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-
+import poliagentxImage from "@/assets/freepik_a-futuristic-minimalistic_2800113780.png";
+import nestifyImage from "@/assets/IMG_202604106_164605792.png";
 
 const Projects = () => {
   return (
