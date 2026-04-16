@@ -16,14 +16,14 @@ const projects = [
     tags: ["Django", "Python", "ML", "Data Analytics","Tailwindcss"],
     status: "Under Development",
   },
-  // {
-  //   id: "nestify",
-  //   title: "Nestify",
-  //   description: "House mapping platform with AI location recommendations for rentals and accommodations. Helps users find properties in proximity to specific locations.",
-  //   image: nestifyImage,
-  //   tags: ["Django","React", "AI", "Maps API"],
-  //   status: "Under Development",
-  // },
+  {
+    id: "nestify",
+    title: "Nestify",
+    description: "House mapping platform with AI location recommendations for rentals and accommodations. Helps users find properties in proximity to specific locations.",
+    image: nestifyImage,
+    tags: ["Django","React", "AI", "Maps API"],
+    status: "Under Development",
+  },
 ];
 
 const FeaturedProjects = () => {
