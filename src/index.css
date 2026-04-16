@@ -2,77 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @layer base {
   :root {
-    --background: 0 0% 98%;
-    --foreground: 0 0% 5%;
+    --background: 35 30% 96%;
+    --foreground: 25 20% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 5%;
+    --card: 35 25% 98%;
+    --card-foreground: 25 20% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 5%;
+    --popover: 35 25% 98%;
+    --popover-foreground: 25 20% 15%;
 
-    --primary: 195 100% 50%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 30 80% 50%;
+    --primary-foreground: 35 30% 98%;
 
-    --secondary: 0 0% 96%;
-    --secondary-foreground: 0 0% 5%;
+    --secondary: 35 20% 90%;
+    --secondary-foreground: 25 20% 20%;
 
-    --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 45%;
+    --muted: 35 15% 92%;
+    --muted-foreground: 25 10% 45%;
 
-    --accent: 195 100% 50%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 30 80% 50%;
+    --accent-foreground: 35 30% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 90%;
-    --input: 0 0% 90%;
-    --ring: 195 100% 50%;
+    --border: 30 15% 85%;
+    --input: 30 15% 85%;
+    --ring: 30 80% 50%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --cyan: 195 100% 50%;
-    --cyan-foreground: 0 0% 100%;
+    --warm: 30 80% 50%;
+    --warm-foreground: 35 30% 98%;
+    --golden: 40 90% 55%;
+    --amber-glow: 35 100% 70%;
   }
 
   .dark {
-    --background: 0 0% 8%;
-    --foreground: 0 0% 98%;
+    --background: 25 15% 10%;
+    --foreground: 35 20% 92%;
 
-    --card: 0 0% 10%;
-    --card-foreground: 0 0% 98%;
+    --card: 25 15% 13%;
+    --card-foreground: 35 20% 92%;
 
-    --popover: 0 0% 10%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 25 15% 13%;
+    --popover-foreground: 35 20% 92%;
 
-    --primary: 195 100% 50%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 30 80% 55%;
+    --primary-foreground: 25 15% 10%;
 
-    --secondary: 0 0% 15%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 25 15% 18%;
+    --secondary-foreground: 35 20% 92%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 25 15% 18%;
+    --muted-foreground: 35 10% 60%;
 
-    --accent: 195 100% 50%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 30 80% 55%;
+    --accent-foreground: 25 15% 10%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 195 100% 50%;
+    --border: 25 15% 22%;
+    --input: 25 15% 22%;
+    --ring: 30 80% 55%;
 
-    --cyan: 195 100% 50%;
-    --cyan-foreground: 0 0% 100%;
+    --warm: 30 80% 55%;
+    --warm-foreground: 25 15% 10%;
+    --golden: 40 90% 60%;
+    --amber-glow: 35 100% 75%;
   }
 }
 
@@ -83,5 +85,10 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
   }
 }
