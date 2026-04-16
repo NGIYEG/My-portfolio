@@ -14,7 +14,7 @@ const Hero = () => {
         </h1>
         
         <h2 className="text-xl md:text-2xl text-primary font-semibold mb-8 italic">
-          | On earth to build & break things (mostly build) |
+          | On earth to create|
         </h2>
 
         <div className="bg-card border border-border rounded-xl p-6 md:p-8 mb-10 text-left shadow-sm">
@@ -22,10 +22,10 @@ const Hero = () => {
             <span className="text-2xl">💡</span>
             <div className="space-y-1 text-base md:text-lg text-foreground leading-relaxed">
               <p>
-                <strong>George Otieno Ngiye</strong> is my name. My friends call me <strong>Ngiye</strong> 😊
+                <strong>George Otieno Ngiye</strong> is my name. My friends call me <strong>Prof</strong> 😊
               </p>
               <p>
-                I am baked in a beautiful pie of paradoxes: <span className="text-primary font-medium">Analytical yet Creative, Quiet yet Opinionated, Caffeinated yet Always Sleepy.</span>
+                I am baked in a fantastic pie of paradoxes: <span className="text-primary font-medium">Analytical yet Creative, Quiet yet Opinionated, Caffeinated yet Always Sleepy.</span>
               </p>
             </div>
           </div>
