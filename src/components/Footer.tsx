@@ -58,8 +58,8 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">About</h3>
             <p className="text-muted-foreground text-sm">
-              Data scientist, backend engineer & full-stack developer building
-              modern solutions with cutting-edge technologies.
+              Building
+              modern Data driven solutions with cutting-edge technologies.
             </p>
           </div>
 
