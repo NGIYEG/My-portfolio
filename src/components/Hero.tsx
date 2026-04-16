@@ -25,7 +25,7 @@ const Hero = () => {
                 <strong>George Ngiye</strong> is my name. My friends call me <strong>Prof</strong> 😊
               </p>
               <p>
-                I am baked in a fantastic pie of paradoxes: <span className="text-primary font-medium">Analytical yet Creative, Quiet yet Opinionated, Caffeinated yet Always Sleepy.</span>
+                I am baked in a fantastic pie of paradoxes: <span className="text-primary font-medium">Analytical yet Creative, Quiet yet Opinionated, Focused yet Dreamy.</span>
               </p>
             </div>
           </div>
