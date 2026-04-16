@@ -22,7 +22,7 @@ const Hero = () => {
             <span className="text-2xl">💡</span>
             <div className="space-y-1 text-base md:text-lg text-foreground leading-relaxed">
               <p>
-                <strong>George Otieno Ngiye</strong> is my name. My friends call me <strong>Prof</strong> 😊
+                <strong>George Ngiye</strong> is my name. My friends call me <strong>Prof</strong> 😊
               </p>
               <p>
                 I am baked in a fantastic pie of paradoxes: <span className="text-primary font-medium">Analytical yet Creative, Quiet yet Opinionated, Caffeinated yet Always Sleepy.</span>
@@ -55,7 +55,7 @@ const Hero = () => {
           </p>
 
           <p className="text-primary font-medium italic">
-            Just in case you were wondering, 'Ngiye' means 'I am' in Swahili. And I am... always building. 🌻
+            Just in case you were wondering, 'Ngiye' means 'Great' in Dholuo. And Great... always building. 🌻
           </p>
         </div>
 
