@@ -2,27 +2,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import poliagentxImage from "@/assets/poliagentx-hero.jpg";
-import nestifyImage from "@/assets/nestify-hero.jpg";
 
-const projects = [
-  {
-    id: "poliagentx",
-    title: "PoliagentX",
-    description: "Policy tracking and monitoring tool that tracks government spending and outcomes. A development predictive platform.",
-    image: poliagentxImage,
-    tags: ["Django", "Python", "AI/ML", "Data Analytics"],
-    status: "Under Development",
-  },
-  {
-    id: "nestify",
-    title: "Nestify",
-    description: "House mapping platform with AI location recommendations for rentals and accommodations. Helps users find properties in proximity to specific locations.",
-    image: nestifyImage,
-    tags: ["Django","React", "Maps API", "Node.js"],
-    status: "Under Development",
-  },
-];
 
 const Projects = () => {
   return (
