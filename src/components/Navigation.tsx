@@ -33,15 +33,15 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
 
           {/* Logo */}
-          {/* <Link to="/" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2">
             <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center">
               <User className="h-6 w-6 text-primary" />
             </div>
             <span className="font-bold text-xl">My Portfolio</span>
-          </Link> */}
+          </Link>
 
           {/* Desktop Navigation */}
-          {/* <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
@@ -51,7 +51,7 @@ const Navigation = () => {
                 {link.name}
               </Link>
             ))}
-          </div> */}
+          </div>
 
           {/* Right Actions */}
           <div className="flex items-center gap-4">
