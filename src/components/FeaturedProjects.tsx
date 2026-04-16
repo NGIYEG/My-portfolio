@@ -53,10 +53,10 @@ const FeaturedProjects = () => {
               <Card key={idx} className="overflow-hidden hover:shadow-lg transition-shadow">
                 <div className="aspect-video overflow-hidden relative">
                   <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 blur-sm"
-                  />
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                      />
                   <Badge className="absolute top-4 right-4 bg-background/80 backdrop-blur">
                     {project.status}
                   </Badge>
