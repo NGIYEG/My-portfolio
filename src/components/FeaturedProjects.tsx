@@ -41,8 +41,8 @@ const FeaturedProjects = () => {
     <section className="py-16 px-4">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Projects</h2>
-          <p className="text-muted-foreground">Here are some of the projects I'm proud of.</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">My Product Portfolio</h2>
+          <p className="text-muted-foreground">Things I've built that I'm proud of.</p>
         </div>
 
         <div className="relative max-w-5xl mx-auto">

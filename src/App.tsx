@@ -15,7 +15,7 @@ import Auth from "./pages/Auth";
 import CreateBlog from "./pages/CreateBlog";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Navigation from "./components/Navigation";
-import WhatsAppButton from "./components/WhatsAppButton";
+
 import Footer from "./components/Footer";
 
 const queryClient = new QueryClient();
@@ -42,7 +42,7 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
-          <WhatsAppButton />
+          
         </BrowserRouter>
       </TooltipProvider>
     </ThemeProvider>
