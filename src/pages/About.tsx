@@ -57,9 +57,9 @@ const About = () => {
       description: "Created a policy tracking and monitoring platform that tracks government spending and development outcomes. Because someone has to keep the receipts 🧾"
     },
     {
-      year: "2025",
-      title: "Nestify Platform",
-      description: "Developed an AI-powered house mapping platform with intelligent location recommendations. Helping people find homes so they don't have to live in their code editors."
+      year: "2026",
+      title: "Smart Routes",
+      description: "A route optimization platform for school commuters"
     }
   ];
 
