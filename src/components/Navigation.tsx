@@ -37,7 +37,7 @@ const Navigation = () => {
             <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center">
               <User className="h-6 w-6 text-primary" />
             </div>
-            <span className="font-bold text-xl">My Portfolio</span>
+            {/* <span className="font-bold text-xl">My Portfolio</span> */}
           </Link>
 
           {/* Desktop Navigation */}
