@@ -7,33 +7,33 @@ import { Badge } from "@/components/ui/badge";
 import { ExternalLink } from "lucide-react";
 
 const speakingOpportunities = [
-  {
-    title: "Tech Meetup Nairobi",
-    event: "Community Talk",
-    topic: "Building AI-Powered Applications in East Africa",
-    date: "2025",
-  },
-  {
-    title: "University Guest Lecture",
-    event: "Academic",
-    topic: "From Student to Full-Stack Developer: A Career Path",
-    date: "2024",
-  },
+  // {
+  //   title: "Tech Meetup Nairobi",
+  //   event: "Community Talk",
+  //   topic: "Building AI-Powered Applications in East Africa",
+  //   date: "2025",
+  // },
+  // {
+  //   title: "University Guest Lecture",
+  //   event: "Academic",
+  //   topic: "From Student to Full-Stack Developer: A Career Path",
+  //   date: "2024",
+  // },
 ];
 
 const awards = [
-  {
-    title: "Hackathon Winner",
-    organization: "Local Tech Community",
-    description: "First place for building an innovative policy tracking MVP in 48 hours.",
-    year: "2025",
-  },
-  {
-    title: "Top Contributor",
-    organization: "Open Source Community",
-    description: "Recognized for consistent contributions to open source projects.",
-    year: "2024",
-  },
+  // {
+  //   title: "Hackathon Winner",
+  //   organization: "Local Tech Community",
+  //   description: "First place for building an innovative policy tracking MVP in 48 hours.",
+  //   year: "2025",
+  // },
+  // {
+  //   title: "Top Contributor",
+  //   organization: "Open Source Community",
+  //   description: "Recognized for consistent contributions to open source projects.",
+  //   year: "2024",
+  // },
 ];
 
 const Index = () => {
@@ -69,7 +69,7 @@ const Index = () => {
       <section className="py-16 px-4 border-t border-border">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">TV Appearances & Speaking Opportunities</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Events Appearances & Speaking Opportunities</h2>
             <p className="text-muted-foreground">Sharing knowledge beyond the keyboard.</p>
           </div>
 
