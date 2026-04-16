@@ -41,7 +41,7 @@ const Navigation = () => {
           </Link> */}
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          {/* <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
@@ -51,7 +51,7 @@ const Navigation = () => {
                 {link.name}
               </Link>
             ))}
-          </div>
+          </div> */}
 
           {/* Right Actions */}
           <div className="flex items-center gap-4">
