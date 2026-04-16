@@ -121,28 +121,30 @@ const About = () => {
         </div>
 
         {/* Story */}
-        <div className="space-y-6 text-base md:text-lg text-foreground/90 leading-relaxed mb-16">
-          <p>
-            It all started when I tried to "fix" my school's website and accidentally turned the entire homepage into a single giant heading. The teacher was not amused. I was <em>fascinated</em>.
-          </p>
-          <p>
-            Since then, I've gone from breaking websites to building them professionally. I'm a <strong>Full-Stack Web Developer</strong> who genuinely enjoys both the frontend sparkle ✨ and the backend plumbing 🔧.
-          </p>
-          <p>
-            I've built everything from <strong>business websites for startups</strong> to <strong>complex web applications for enterprises</strong>. My superpower? Turning "I have this vague idea" into "Wait, this actually works?!" moments.
-          </p>
-          <p>
-            I believe code should be clean enough to read like prose (or at least like a well-formatted grocery list). I obsess over performance, accessibility, and making things that people actually enjoy using.
-          </p>
-          <p className="text-primary font-medium italic">
-            Fun fact: I have never once said "it works on my machine" and meant it as a flex. It's always a cry for help. 😂
-          </p>
-        </div>
+       <div className="space-y-6 text-base md:text-lg text-foreground/90 leading-relaxed mb-16">
+  <p>
+    My journey into tech started with curiosity,wondering how websites, apps, and systems actually worked behind the scenes. What began as simple experiments quickly turned into a genuine obsession with building things.
+  </p>
+
+  <p>
+    Since then, I’ve grown into a techy who enjoys both the visual side of products and the logic that powers them underneath. I like creating experiences that look clean, feel smooth, and work reliably.
+  </p>
+
+ 
+
+  <p>
+    I care deeply about writing clean code, improving performance, and designing systems that can scale. I also enjoy blending software engineering with data-driven thinking whenever it adds value.
+  </p>
+
+  <p className="text-primary font-medium italic">
+    Fun fact: I can spend hours debugging a tiny issue, then celebrate like I launched a rocket when it finally works. 😂
+  </p>
+</div>
 
         <div className="text-center mb-16">
           <Button onClick={handleDownloadResume} className="gap-2" size="lg">
             <Download className="h-4 w-4" />
-            Download Resume (Yes, it's a PDF. I'm old school.)
+            Download Resume
           </Button>
         </div>
 
