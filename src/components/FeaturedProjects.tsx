@@ -11,7 +11,7 @@ const projects = [
   {
     id: "poliagentx",
     title: "PoliagentX",
-    description: "Policy tracking and monitoring tool that tracks government spending and outcomes. A decision making platform.",
+    description: "Policy analytics platform that simulates the relationship between government spending and its outcomes across multiple social indicators simultaneously.Unlike traditional tools that analyse policy areas in isolation, it reveals how decisions in one/many sector interconnect and influenc other sector.",
     image: poliagentxImage,
     tags: ["Django", "Python", "ML", "Data Analytics","Tailwindcss"],
     status: "Under Development",
