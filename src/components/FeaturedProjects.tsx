@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
-import poliagentxImage from "@/assets/poliagentx-hero.jpg";
+import poliagentxImage from "@/assets/freepik_a-futuristic-minimalistic_2800113780.png";
 import nestifyImage from "@/assets/IMG_202604106_164605792.png";
 
 const projects = [
