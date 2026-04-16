@@ -43,7 +43,7 @@ const Navigation = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          {/* <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
@@ -53,10 +53,10 @@ const Navigation = () => {
                 {link.name}
               </Link>
             ))}
-          </div> */}
+          </div> */} */}
 
           {/* Right Side Actions */}
-          <div className="flex items-center gap-4">
+          {/* <div className="flex items-center gap-4">
             <Button
               variant="ghost"
               size="icon"
@@ -103,7 +103,7 @@ const Navigation = () => {
               onClick={() => setIsOpen(!isOpen)}
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </Button>
+            </Button> */}
           </div>
         </div>
 
