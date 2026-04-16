@@ -21,20 +21,20 @@ const speakingOpportunities = [
   },
 ];
 
-// const awards = [
-//   {
-//     title: "Hackathon Winner",
-//     organization: "Local Tech Community",
-//     description: "First place for building an innovative policy tracking MVP in 48 hours.",
-//     year: "2025",
-//   },
-//   {
-//     title: "Top Contributor",
-//     organization: "Open Source Community",
-//     description: "Recognized for consistent contributions to open source projects.",
-//     year: "2024",
-//   },
-// ];
+const awards = [
+  {
+    title: "Hackathon Winner",
+    organization: "Local Tech Community",
+    description: "First place for building an innovative policy tracking MVP in 48 hours.",
+    year: "2025",
+  },
+  {
+    title: "Top Contributor",
+    organization: "Open Source Community",
+    description: "Recognized for consistent contributions to open source projects.",
+    year: "2024",
+  },
+];
 
 const Index = () => {
   return (
