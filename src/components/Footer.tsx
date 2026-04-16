@@ -151,7 +151,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border">
           <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Ngiye-dev. All rights reserved.
+            © {new Date().getFullYear()} Ngiye. All rights reserved.
           </p>
         </div>
       </div>
