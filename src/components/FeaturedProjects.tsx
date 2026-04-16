@@ -18,10 +18,10 @@ const projects = [
   },
   {
     id: "nestify",
-    title: "Nestify",
-    description: "House mapping platform with AI location recommendations for rentals and accommodations. Helps users find properties in proximity to specific locations.",
+    title: "SmartRoutes",
+    description: "Smart Route optimization for safer, faster school commutes.",
     image: nestifyImage,
-    tags: ["Django","React", "AI", "Maps API"],
+    tags: ["Django","React", "AI", "Maps API","Redis","RabbitMQ"],
     status: "Under Development",
   },
 ];
