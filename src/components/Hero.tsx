@@ -55,7 +55,7 @@ const Hero = () => {
           </p>
 
           <p className="text-primary font-medium italic">
-            Just in case you were wondering, 'Ngiye' means 'Great' in Dholuo. And Great... always building. 🌻
+            Just in case you were wondering, 'Ngiye' means 'Great' in Dholuo. And Great... always building.
           </p>
         </div>
 
