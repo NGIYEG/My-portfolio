@@ -46,11 +46,11 @@ const About = () => {
   ];
 
   const careerJourney = [
-    {
-      year: "2023 - Present",
-      title: "Full-Stack Web Developer",
-      description: "Building modern web applications and delivering innovative solutions for clients across various industries. Also consuming unhealthy amounts of coffee."
-    },
+    // {
+    //   year: "2023 - Present",
+    //   title: "Full-Stack Web Developer",
+    //   description: "Building modern web applications and delivering innovative solutions for clients across various industries. Also consuming unhealthy amounts of coffee."
+    // },
     {
       year: "2025 - Present",
       title: "PoliagentX",
