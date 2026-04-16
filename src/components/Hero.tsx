@@ -35,8 +35,8 @@ const Hero = () => {
           <p>A builder by nature and intentional nurture.</p>
           
           <p>
-            Excited by experiments, data, and technology: hence a <strong>Data Scientist</strong>, <strong>Backend Engineer</strong>, and <strong>Full-Stack Developer</strong> by profession and a <strong>serial builder</strong> by compulsion.
-          </p>
+  Excited by experiments, data, and technology: blending data science into software engineering — teaching numbers to talk, making servers behave, and turning ideas into products before overthinking them.
+</p>
 
           <p>
             I will brag a bit 🙈 if that makes you uncomfortable, this is your cue to close the tab:
