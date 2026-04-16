@@ -11,19 +11,19 @@ const projects = [
   {
     id: "poliagentx",
     title: "PoliagentX",
-    description: "Policy tracking and monitoring tool that tracks government spending and outcomes. A development predictive platform.",
+    description: "Policy tracking and monitoring tool that tracks government spending and outcomes. A decision making platform.",
     image: poliagentxImage,
     tags: ["Django", "Python", "ML", "Data Analytics","Tailwindcss"],
     status: "Under Development",
   },
-  {
-    id: "nestify",
-    title: "Nestify",
-    description: "House mapping platform with AI location recommendations for rentals and accommodations. Helps users find properties in proximity to specific locations.",
-    image: nestifyImage,
-    tags: ["Django","React", "AI", "Maps API"],
-    status: "Under Development",
-  },
+  // {
+  //   id: "nestify",
+  //   title: "Nestify",
+  //   description: "House mapping platform with AI location recommendations for rentals and accommodations. Helps users find properties in proximity to specific locations.",
+  //   image: nestifyImage,
+  //   tags: ["Django","React", "AI", "Maps API"],
+  //   status: "Under Development",
+  // },
 ];
 
 const FeaturedProjects = () => {
@@ -42,7 +42,7 @@ const FeaturedProjects = () => {
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">My Product Portfolio</h2>
-          <p className="text-muted-foreground">Things I've built that I'm proud of.</p>
+          <p className="text-muted-foreground">Things I've built or I am building that I'm proud of.</p>
         </div>
 
         <div className="relative max-w-5xl mx-auto">
