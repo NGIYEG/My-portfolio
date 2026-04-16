@@ -35,7 +35,7 @@ const Hero = () => {
           <p>A builder by nature and intentional nurture.</p>
           
           <p>
-  Excited by experiments, data, and technology: blending data science into software engineering — teaching numbers to talk, making servers behave, and turning ideas into products before overthinking them.
+  Excited by experiments, data, and technology: blending data science into software engineering, teaching numbers to talk, making servers behave, and turning ideas into products before overthinking them.
 </p>
 
           <p>
