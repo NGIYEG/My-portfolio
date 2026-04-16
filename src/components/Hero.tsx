@@ -43,7 +43,7 @@ const Hero = () => {
           </p>
 
           <p>
-            I've built web apps, data pipelines, and ML models that people actually use or will use (shocking, I know). From <strong>policy simulation platforms</strong> to <strong>AI-powered an AI-powered route optimizer</strong> — if it involves data or runs on the web, I've probably tried to build it at 2am.
+            I've built web apps, data pipelines, and ML models that people actually use or will use (shocking, I know). From <strong>policy simulation platforms</strong> to <strong>AI-powered route optimizer</strong> — if it involves data or runs on the web, I've probably tried to build it at 2am.
           </p>
 
          <p>
