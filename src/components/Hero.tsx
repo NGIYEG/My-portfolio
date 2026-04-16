@@ -43,15 +43,15 @@ const Hero = () => {
           </p>
 
           <p>
-            I've built web apps, data pipelines, and ML models that people actually use (shocking, I know). From <strong>policy tracking platforms</strong> to <strong>AI-powered property finders</strong> — if it involves data or runs on the web, I've probably tried to build it at 2am.
+            I've built web apps, data pipelines, and ML models that people actually use or will use (shocking, I know). From <strong>policy simulation platforms</strong> to <strong>AI-powered an AI-powered route optimizer</strong> — if it involves data or runs on the web, I've probably tried to build it at 2am.
           </p>
 
-          <p>
-            A core strength of mine is turning vague ideas into working software — I once built an entire MVP in a weekend fueled by nothing but ambition and instant coffee.
-          </p>
+         <p>
+  A core strength of mine is turning vague ideas into working software — I once built an entire MVP in a weekend fueled by nothing but ambition and instant coffee... only for it to crash majestically on presentation day.
+</p>
 
           <p>
-            I often forget to mention that I started coding by breaking every website I touched. My debugging skills only blossomed since then.
+            I often forget to mention that I started coding by breaking every system I touched. My debugging skills only blossomed since then.
           </p>
 
           <p className="text-primary font-medium italic">
