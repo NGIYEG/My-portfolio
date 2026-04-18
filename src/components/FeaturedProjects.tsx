@@ -103,11 +103,6 @@ const FeaturedProjects = () => {
           </div>
         </div>
 
-        <div className="text-center mt-12">
-          <Button asChild size="lg">
-            <Link to="/projects">View All Projects</Link>
-          </Button>
-        </div>
       </div>
     </section>
   );
