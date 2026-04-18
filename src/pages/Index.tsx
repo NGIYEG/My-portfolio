@@ -96,10 +96,7 @@ const Index = () => {
       {/* Reach out to me here */}
       <section className="py-20 px-4 text-center border-t border-border">
         <div className="container mx-auto max-w-2xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Reach out to me here</h2>
-          <p className="text-muted-foreground mb-8">
-            Whether you need a website, a data pipeline, an ML model, or someone to debug your existential crisis (software-related only, please).
-          </p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-8">Reach out to me here</h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="gap-2">
               <a href="mailto:georgengiye3@gmail.com">📨 Email Me →</a>
