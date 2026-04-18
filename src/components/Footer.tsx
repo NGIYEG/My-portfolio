@@ -53,42 +53,13 @@ const Footer = () => {
   return (
     <footer className="border-t border-border bg-background">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* About Section */}
           <div>
             <h3 className="text-lg font-semibold mb-4">About</h3>
             <p className="text-muted-foreground text-sm">
-              Building
-              modern Data driven solutions with cutting-edge technologies.
+              Building modern data-driven solutions with cutting-edge technologies.
             </p>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <nav className="flex flex-col space-y-2">
-              <Link to="/" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
-                Home
-              </Link>
-              <Link to="/about" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
-                About
-              </Link>
-              <Link to="/projects" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
-                Projects
-              </Link>
-              <Link to="/services" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
-                Services
-              </Link>
-              <Link to="/blog" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
-                Blog
-              </Link>
-              <Link to="/contact" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
-                Contact
-              </Link>
-              <Link to="/privacy-policy" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
-                Privacy Policy
-              </Link>
-            </nav>
           </div>
 
           {/* Social Links */}

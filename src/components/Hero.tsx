@@ -1,13 +1,24 @@
 import { Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import heroPortrait from "@/assets/hero-portrait.jpg";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center pt-16 px-4 relative overflow-hidden">
+    <section className="min-h-screen flex flex-col items-center justify-center py-16 px-4 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-transparent to-golden/5 pointer-events-none" />
       
       <div className="container mx-auto max-w-3xl text-center relative z-10">
         <div className="text-6xl mb-6">☀️</div>
+
+        <div className="flex justify-center mb-8">
+          <img
+            src={heroPortrait}
+            alt="George Ngiye illustrated portrait"
+            width={896}
+            height={1024}
+            className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-primary/20 shadow-lg"
+          />
+        </div>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
           George Ngiye's Portfolio
